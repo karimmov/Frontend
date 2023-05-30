@@ -1,0 +1,99 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', 'sans-serif';
+}
+
+.content {
+  min-height: calc(100vh - 50px);
+  flex: 1 0 auto;
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  padding-bottom: 60px;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.analysis-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 1200px;
+  .category-name {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  span {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .analysis-list-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+  }
+}
+
+.my-account {
+  .header {
+    &__nav {
+      display: flex;
+      margin-left: 800px;
+      color: white;
+      font-weight: 300;
+      gap: 30px;
+      font-size: 18px;
+      line-height: 50px;
+    }
+  }
+  .main {
+    width: 1440px;
+    .client-info {
+      font-size: 20px;
+      letter-spacing: 0.3em;
+    }
+    .result-wrapper {
+      background: rgba(229, 229, 229, 0.84);
+      width: 1000px;
+    }
+    .result {
+      margin-top: 30px;
+      padding: 20px;
+      position: relative;
+      border-bottom: 2px solid #adabab;
+      &__title {
+        font-size: 20px;
+      }
+      &__date {
+        margin-top: 15px;
+        font-weight: 300;
+      }
+      &__status {
+        margin-top: 25px;
+      }
+      &__btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+* {
+  font-family: inherit;
+}

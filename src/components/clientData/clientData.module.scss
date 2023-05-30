@@ -1,0 +1,27 @@
+.clientData {
+  width: 400px;
+}
+
+.title {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.inputFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.buttonWrapper {
+  justify-content: flex-end;
+  margin-top: 40px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.inputTitle {
+  font-size: 17px;
+}

@@ -1,0 +1,30 @@
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Raleway';
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.text {
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin-top: 20px;
+  width: 800px;
+}
+
+.img {
+  background: url('/src/images/lab.jpg') no-repeat;
+  background-size: contain;
+  width: 412px;
+  height: 615px;
+  margin-top: 35px;
+}
+
+.wrapper {
+  display: flex;
+  column-gap: 100px;
+}

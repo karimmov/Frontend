@@ -1,0 +1,35 @@
+.nav {
+  height: 55px;
+  background-color: #f2f6f7;
+}
+
+.navItem {
+  font-family: Raleway;
+  font-weight: 500;
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.93);
+  text-align: center;
+  display: block;
+  border: none;
+  font-size: 16px;
+}
+.navItem:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #3CB6DC;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=ProfileNav.module.css.map */

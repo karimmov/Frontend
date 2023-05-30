@@ -1,0 +1,44 @@
+.modal {
+  z-index: 101;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(0);
+  align-items: center;
+}
+
+.active {
+  transform: scale(1);
+}
+
+.modalContent {
+  width: 500px;
+  height: 200px;
+  background: #ECECEC;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.img {
+  background: url("/src/images/success.png") no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=MessageModal.module.css.map */

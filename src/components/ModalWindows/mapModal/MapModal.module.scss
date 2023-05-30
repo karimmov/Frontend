@@ -1,0 +1,28 @@
+.modal {
+  z-index: 101;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.7);
+  transform: scale(0);
+}
+
+.active {
+  transform: scale(1);
+}
+
+.modalContent {
+  width: 700px;
+  height: 600px;
+  background: #ECECEC;
+  border-radius: 10px;
+  padding: 70px 50px;
+}
+
+.title {
+  font-size: 26px;
+  font-family: Raleway;
+}

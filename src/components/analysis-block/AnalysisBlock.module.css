@@ -1,0 +1,46 @@
+.analysisBlock {
+  width: 580px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-bottom: 2px solid #adabab;
+  padding: 20px;
+  line-height: 15px;
+  position: relative;
+  border-bottom: 2px solid #adabab;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 1fr;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  width: 380px;
+  font-size: 17px;
+  overflow: hidden;
+  white-space: normal;
+  font-weight: 500;
+  font-family: "Raleway";
+  line-height: 1.2em;
+}
+
+.duration {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.price {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  bottom: 26px;
+  right: 160px;
+}
+
+.error__hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=AnalysisBlock.module.css.map */

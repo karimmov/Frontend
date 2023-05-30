@@ -1,0 +1,51 @@
+.modal {
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(0);
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.modal__content {
+  width: 1200px;
+  height: 800px;
+  background: #ECECEC;
+  border-radius: 10px;
+  padding: 70px 0px 70px 50px;
+}
+
+.modal__title {
+  font-size: 20px;
+}
+
+.modal__category {
+  font-size: 16px;
+  font-weight: 300;
+  width: 250px;
+}
+.modal__category:hover {
+  cursor: pointer;
+  color: #0094c2;
+}
+
+.modal__categories-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  overflow: auto;
+  height: 600px;
+  padding-right: 50px;
+}
+
+/*# sourceMappingURL=CategoriesModal.css.map */
